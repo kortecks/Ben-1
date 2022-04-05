@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talking Ben</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container loading">
+        <video src="videos/begin.mp4" class="main-video"></video>
+        <div class="buttons">
+            <button class="button video-button" id="start-button" data-video-id="yes">Yes</button>
+            <button class="button video-button" id="start-button" data-video-id="hoho">Hohoho</button>
+            <button class="button video-button" id="start-button" data-video-id="no">No</button>
+            <button class="button video-button" id="start-button" data-video-id="ooh">Ooh</button>
+        </div>
+    </div>
+    <button id="start" onclick="loadAssets(); this.remove();" class="button center">
+        Start
+    </button>
+    <script src="main.js"></script>
+    <script>
+        setTimeout(() => {
+            
+        }, 1000)
+    </script>
+</body>
+</html>
